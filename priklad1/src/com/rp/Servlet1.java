@@ -10,11 +10,19 @@ public class Servlet1 extends HttpServlet{
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 	throws IOException{
+		
+		 String outp= request.getParameter("output");
 		PrintWriter out = response.getWriter();
-		out.println("<html>");
-		out.println("<body>");
-		out.println("<h1>Hello IBA!</h1>");
-		out.println("</body>");
-		out.println("</html>");
-	}
+		out.println(out);
+		
+	  
 }
+		
+
+
+
+		
+	
+	}
+	
+	
