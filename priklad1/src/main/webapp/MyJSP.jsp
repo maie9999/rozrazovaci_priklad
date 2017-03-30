@@ -42,7 +42,7 @@
     </c:set>
 		
 <c:set var="msg" scope="page" >
-		Hello TEST!
+		Hello IBA!
 </c:set>
 
 <c:forEach var="i" begin="1" end="${e}">
