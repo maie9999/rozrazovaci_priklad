@@ -7,3 +7,7 @@
 // LEVEL 5 - POJO 
 //
 
+
+
+31.03.2017 13:00 Více jsem toho bohužel nestihla (stále mi jdou některé věci pomaleji), avšak pevně věřím, že ještě ten Level 6 bych byla schopna dodělat. :)  Na GIT jsem nahrála postupně levely až do páté úrovně, který je kompletní. Děkuji
+
