@@ -17,15 +17,15 @@ public class Servlet1Controller {
 	public String printWelcome(ModelMap model) {
 
 		model.addAttribute("message", "Spring 3 MVC Hello World");
-		return "hello";
+		return "index";
 
 	}
 
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public ModelAndView hello(@PathVariable("name") String name) {
 
 		ModelAndView model = new ModelAndView();
-		model.setViewName("hello");
+		model.setViewName("index");
 		model.addObject("msg", name);
 
 		return model;
