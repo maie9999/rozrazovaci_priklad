@@ -19,7 +19,8 @@ public class Student {
 	  this.setLastName(lastName);
 	  this.setDateOfBirth(dateOfBirth);
 	  this.setSex(sex);
-	 }
+	  	
+	  }
 
 	public String getFirstName() {
 		return firstName;
